@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-    <script src="script.js"></script>
     <title>Restaurant</title>
 </head>
 
@@ -19,20 +18,24 @@
             <img src="images/logo.png">
         </a>
         <nav class="navbar">
+
+            <i class="fa fa-bars" id="bar"></i>
+            <i class="fa fa-times" id="cancel"></i>
             <a href="#home">home</a>
             <a href="#about">about</a>
             <a href="#menu">menu</a>
             <a href="#awards">awards</a>
             <a href="#contact">contact</a>
-        </nav>
-        <nav class="navbar2">
             <a href="#login">Log In/Registration</a>
             <a href="">|</a>
             <a href="#table">Book Table</a>
+
         </nav>
-        <div class="icons">
-            <div class="fa fa-bars" id="menu-btn"></div>
-        </div>
+        <!-- <nav class="navbar2">
+            <a href="#login">Log In/Registration</a>
+            <a href="">|</a>
+            <a href="#table">Book Table</a>
+        </nav> -->
     </header>
     <section class="home" id="home">
         <div class="content">
@@ -59,14 +62,39 @@
                 <button class="btn1">know more</button>
             </div>
             <img src="images/knife.png" class="knife">
-            <h1 class="heading2">our history</h1>
-            <p class="history">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ab, accusantium. Lorem ipsum
-                dolor sit amet
-                consectetur<br> adipisicing elit. Corporis, dicta.</p>
-            <button class="btn2">know more</button>
+            <!-- <h1 class="heading2">our history <span class="history">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Ab,
+                    accusantium. Lorem
+                    ipsum
+                    dolor sit amet
+                    consectetur<br> adipisicing elit. Corporis, dicta.</span></h1> -->
+
+            <!-- <button class="btn2">know more</button> -->
+        </div>
+    </section>
+    <section class="menu" id="menu">
+        <p class="special">Menu that fits your palatte </p>
+        <img src="https://restaurant-app-0d8152.netlify.app/static/media/spoon.d079f43fbcf509908d3865293080795a.svg"
+            class="needle3">
+        <div class="row">
+            <div class="content">
+                <h1 class="heading3">today's special</h1>
+                <p class="wine">Wine & Bear</p>
+                <p class="menu_special">Chapel Hill Shiraz ----------- <span class="cost">$56</span></p>
+                <p class="text">AU | Bottle</p>
+                <p class="menu_special">Catena Malbee ----------- <span class="cost">$59</span></p>
+                <p class="text">AU | Bottle</p>
+                <p class="menu_special">La Vieillw Rose ----------- <span class="cost">$44</span></p>
+                <p class="text">FR | 750 Ml</p>
+                <p class="menu_special">Rhino Pale Ale ----------- <span class="cost">$31</span></p>
+                <p class="text">CA | 750 Ml</p>
+                <p class="menu_special">Irish Guinness ----------- <span class="cost">$26</span></p>
+                <p class="text">IE | 750 Ml</p>
+            </div>
+            <img src="images/cocktail.png" class="mocktail">
         </div>
     </section>
 </body>
+<script src="script.js"></script>
 
 </html>
 <!-- Optional JavaScript -->
