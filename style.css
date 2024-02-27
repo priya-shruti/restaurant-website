@@ -249,6 +249,7 @@ label #cancel {
     color: var(--main-color);
     justify-content: center;
     margin-top: 30px;
+    margin-left: 75px;
     font-size: 20px;
 }
 .cost{
@@ -262,14 +263,89 @@ label #cancel {
 .mocktail{
     height: 350px;
     width: 350px;
-    margin-left: 200px;
-    margin-top: 200px;
+    margin-left: 150px;
+    margin-top: 130px;
 }
-.menu .row{
-    display: flex;
-    align-items: center;
-    background: black;
-    gap: 1rem;
+.cocktail{
+    font-size: 45px;
+    color: white;
+    margin-left: 180px;
+}
+.menu_special2{
+    color: var(--main-color);
+    justify-content: center;
+    margin-top: 30px;
+    /* margin-left: 30px; */
+    font-size: 20px;
+}
+.text2{
+    /* margin-left: 75px; */
+    color: gray;
+    font-size: 15px;
+}
+.menu_btn{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    border-radius: 2px;
+    margin-left: 600px;
+    margin-top: 20px;
+    padding-top: 2px;
+    text-decoration: none;
+}
+.chef_img{
+    height: 100px;
+    width: 100px;
+    margin-top: 150px;
+}
+.chef{
+    font-size: 20px;
+    color: white;
+    margin-left: 800px;
+}
+.needle4{
+    margin-left: 800px;
+}
+.believe{
+    color: var(--main-color);
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-left: 800px;
+}
+.quotes{
+    color: white;
+    margin-left: 800px;
+    font-size: 20px;
+}
+.menu_para{
+    color: white;
+    font-size: 20px;
+}
+.name_chef{
+    color: var(--main-color);
+    margin-left: 800px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.award{
+    color: white;
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+.needle5{
+    margin-left: 200px;
+}
+.laurels{
+    color: var(--main-color);
+    margin-left: 180px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+.one{
+    color: white;
 }
 
 
