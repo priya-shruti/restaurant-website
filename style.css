@@ -77,7 +77,8 @@ label #cancel {
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
 
@@ -219,6 +220,7 @@ label #cancel {
     border-radius: 2px;
     text-transform: capitalize;
 }
+
 .heading3 {
     text-align: center;
     justify-content: center;
@@ -228,62 +230,73 @@ label #cancel {
     font-size: 5rem;
     color: var(--main-color);
 }
-.special{
+
+.special {
     color: white;
     margin-top: 200px;
     margin-left: 550px;
     text-transform: capitalize;
     font-size: 20px;
 }
-.needle3{
+
+.needle3 {
     margin-left: 650px;
 }
-.wine{
+
+.wine {
     color: white;
     text-transform: capitalize;
     margin-left: 100px;
     margin-top: 10px;
     font-size: 45px;
 }
-.menu_special{
+
+.menu_special {
     color: var(--main-color);
     justify-content: center;
     margin-top: 30px;
     margin-left: 75px;
     font-size: 20px;
 }
-.cost{
+
+.cost {
     color: white;
 }
-.text{
+
+.text {
     margin-left: 75px;
     color: gray;
     font-size: 15px;
 }
-.mocktail{
+
+.mocktail {
     height: 350px;
     width: 350px;
     margin-left: 150px;
     margin-top: 130px;
 }
-.cocktail{
+
+.cocktail {
     font-size: 45px;
     color: white;
     margin-left: 180px;
 }
-.menu_special2{
+
+.menu_special2 {
     color: var(--main-color);
     justify-content: center;
     margin-top: 30px;
     /* margin-left: 30px; */
     font-size: 20px;
 }
-.text2{
+
+.text2 {
     /* margin-left: 75px; */
     color: gray;
     font-size: 15px;
 }
-.menu_btn{
+
+.menu_btn {
     font-size: 15px;
     text-align: center;
     justify-content: center;
@@ -295,57 +308,84 @@ label #cancel {
     padding-top: 2px;
     text-decoration: none;
 }
-.chef_img{
+
+.chef_img {
     height: 100px;
     width: 100px;
     margin-top: 150px;
 }
-.chef{
+
+.chef {
     font-size: 20px;
     color: white;
     margin-left: 800px;
 }
-.needle4{
+
+.needle4 {
     margin-left: 800px;
 }
-.believe{
+
+.believe {
     color: var(--main-color);
     font-size: 50px;
     text-transform: capitalize;
     margin-left: 800px;
 }
-.quotes{
+
+.quotes {
     color: white;
     margin-left: 800px;
     font-size: 20px;
 }
-.menu_para{
+
+.menu_para {
     color: white;
     font-size: 20px;
 }
-.name_chef{
+
+.name_chef {
     color: var(--main-color);
     margin-left: 800px;
     margin-top: 30px;
     font-size: 20px;
 }
-.award{
+
+.award {
     color: white;
     margin-left: 200px;
     font-size: 20px;
     margin-top: 80px;
 }
-.needle5{
+
+.needle5 {
     margin-left: 200px;
 }
-.laurels{
+
+.laurels {
     color: var(--main-color);
     margin-left: 180px;
     margin-top: 50px;
     font-size: 50px;
 }
-.one{
+
+.one {
+    height: 50px;
+    width: 50px;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.laurels_name {
+    color: var(--main-color);
+    font-size: 19px;
+    margin-left: 200px;
+}
+
+.inner_text {
+    font-size: 20px;
     color: white;
+    flex-direction: column;
+    margin-left: 200px;
 }
 
 
@@ -372,39 +412,15 @@ label #cancel {
         padding: 1.5rem 2rem;
     }
 
-    section {
+    .section {
         padding: 2rem;
     }
 
 }
-/* @media(max-width:860px){
-    label #bar{
-        display: block;
-    } */
-    /* .navbar a{
-        /* position: fixed; */
-        /* width: 100%;
-        height: 100vh;
-        top: 80px;
-        left: 0;
-        text-align: center;
-        display:inline-block;
-        line-height: 30px;
-        margin: 50px 0;
-        font-size: 20px;
-    } */
-/* } */
+
+
 @media (max-width:768px) {
     .header .navbar {
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        background: #fff;
-        width: 30rem;
-        height: calc(100vh -9.5rem);
-    }
-
-    .header .navbar2 {
         position: absolute;
         top: 100%;
         right: -100%;
@@ -422,17 +438,13 @@ label #cancel {
         display: block;
         margin: 2.5rem;
         padding: .2rem;
-        font-size: 1.8rem;
-    }
-
-    .header .search-form {
-        width: 90%;
-        right: 2rem;
+        font-size: 10px;
     }
 
     .home {
         background-position: left;
         justify-content: center;
+        align-items: center;
     }
 
     .home .content h3 {
@@ -442,10 +454,27 @@ label #cancel {
     .home .content p {
         font-size: 1.5rem;
     }
+    .menu_food{
+        width: 5%;
+    }
+    .knife{
+        word-wrap: break-word;
+    }
 }
 
-@media (max-width:450px) {
+@media (max-width:480px) {
     html {
         font-size: 50%;
+    }
+    .knife{
+        position: absolute;
+    }
+    .menu_food{
+        width: 5%;
+    }
+    .special{
+        text-align: center;
+        justify-content: center;
+        position: absolute;
     }
 }
