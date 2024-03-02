@@ -639,7 +639,22 @@ label #cancel {
     }
 
     .box-container {
-        overflow: hidden;
+        display: none;
+    }
+    .hour{
+        display: none;
+    }
+    .needle7{
+        display: none;
+    }
+    .contacts{
+        margin-left: 190px;
+    }
+    .icon{
+        display: none;
+    }
+    .copyright{
+        display: none;
     }
 }
 
