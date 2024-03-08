@@ -137,18 +137,18 @@ label #cancel {
     border: var(--main-color);
 }
 
-.about .row {
+/* .about .row {
     display: flex;
     align-items: center;
     background: black;
     gap: 1rem;
-}
+} */
 
-.about .row .content {
+/* .about .row .content {
     padding: 2rem;
-}
+} */
 
-.about .row .content p {
+.about .content p {
     font-size: 12px;
     color: #eee;
     padding: 1rem 0;
@@ -603,13 +603,11 @@ label #cancel {
     }
 
     .knife {
-        margin-top: 150px;
-        margin-left: 250px;
-        flex-direction: column;
+        display: none;
     }
 
     .special {
-        display: none;
+       display: none;
     }
 
     .chef {
@@ -652,8 +650,11 @@ label #cancel {
         display: none;
     }
 
+    .chef_section {
+        flex-direction: column;
+    }
+
     .chef_img {
-        margin-left: 50px;
         height: 20%;
         width: 20%;
     }
@@ -695,6 +696,7 @@ label #cancel {
 @media (max-width:768px) {
     html {
         font-size: 55%;
+        overflow-x:hidden;
     }
 
     .header .navbar {
@@ -733,7 +735,7 @@ label #cancel {
     }
 
     .menu_food {
-        width: 5%;
+        width: 2px;
     }
 
     .knife {
